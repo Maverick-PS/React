@@ -39,7 +39,7 @@ The `{}` can embed a javascript expression or a variable or React element inside
 JSX comments are written as follows:
 - `{/*  */}` - for single or multiline comments
 #### Example
-
+```
 {/* A JSX comment */}
 {/* 
   Multi
@@ -47,6 +47,7 @@ JSX comments are written as follows:
   JSX
   comment
 */}  
+```
 
 ### What is `<React.Fragment></React.Fragment>` and `<></>`?
 `<React.Fragment></React.Fragment>` is a feature in React that allows you to return multiple elements from a React component by allowing you to group a list of children without adding extra nodes to the DOM.
