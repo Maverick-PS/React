@@ -33,12 +33,13 @@ The `{}` can embed a javascript expression or a variable or React element inside
     <SecondChildComponent />
     <ThirdChildComponent />
 </TitleComponent>
+```
 
 ### How can I write `comments` in JSX?
 JSX comments are written as follows:
 - `{/*  */}` - for single or multiline comments
 #### Example
-```
+
 {/* A JSX comment */}
 {/* 
   Multi
